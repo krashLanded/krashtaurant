@@ -1,0 +1,62 @@
+/* color pallete
+light salmon: FFAC81
+congo pink: FF928B
+apricot: FEC3A6
+medium champagne: EFE9AE
+tea green: CDEAC0
+(from coolors.co)
+*/
+
+body, html {
+    margin: 0;
+    background-color: #FEC3A6;
+    font-family: 'Helvetica';
+    color: #EFF1F3;
+}
+
+.header {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 8vh;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 6px 8px #FF928B;
+}
+
+.headersub {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.buttonContainer {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:auto;
+    width: 80%;
+    text-align: center;
+    gap: 30px;
+}
+
+.homeButton, .contactButton, .menuButton {
+    margin: 20px;
+    background-color: #EFE9AE;
+    border-radius: 40px;
+    color: white;
+    height: 60px;
+    width: 100px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: bolder;
+    box-shadow: 4px 6px #FF928B;
+
+}
